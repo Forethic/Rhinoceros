@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Rhinoceros.Tally.Damain\Rhinoceros.Tally.Damain.csproj">
+      <Project>{B03521BA-FF77-4722-8C2D-A822E665A3D8}</Project>
+      <Name>Rhinoceros.Tally.Damain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

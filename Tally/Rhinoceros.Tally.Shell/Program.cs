@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Rhinoceros.Tally.Damain;
+using System;
 
 namespace Rhinoceros.Tally.Shell
 {
@@ -78,7 +79,7 @@ namespace Rhinoceros.Tally.Shell
 
         static void AddLog()
         {
-            Console.WriteLine("\nAdd a log");
+            Log.AddLog();
         }
 
         static void PrintAllLog()
