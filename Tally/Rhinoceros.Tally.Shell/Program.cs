@@ -84,7 +84,7 @@ namespace Rhinoceros.Tally.Shell
 
         static void PrintAllLog()
         {
-            Console.WriteLine("\nPrint all log");
+            AccountBook.DisplayAllLog();
         }
     }
 }

@@ -82,6 +82,8 @@ namespace Rhinoceros.Tally.Damain
                 }
             }
 
+            AccountBook.Logs.Add(log);
+
             var cacheColor = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(log);
