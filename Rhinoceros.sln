@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhinoceros.Tally.Shell", "Tally\Rhinoceros.Tally.Shell\Rhinoceros.Tally.Shell.csproj", "{8A1AB582-1744-4574-A11A-BD3645FE4C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhinoceros.Tally.Damain", "Rhinoceros.Tally.Damain\Rhinoceros.Tally.Damain.csproj", "{B03521BA-FF77-4722-8C2D-A822E665A3D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhinoceros.Tally.Damain", "Tally\Rhinoceros.Tally.Damain\Rhinoceros.Tally.Damain.csproj", "{B03521BA-FF77-4722-8C2D-A822E665A3D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

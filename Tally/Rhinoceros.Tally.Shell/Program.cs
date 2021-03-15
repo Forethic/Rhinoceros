@@ -7,6 +7,7 @@ namespace Rhinoceros.Tally.Shell
     {
         static void Main(string[] args)
         {
+            AccountBook.ReadAllLog();
 
             var isExit = false;
             do

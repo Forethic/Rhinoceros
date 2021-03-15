@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Rhinoceros.Tally.Damain
 {
@@ -37,7 +33,7 @@ namespace Rhinoceros.Tally.Damain
         /// <summary>
         /// 记录日志的时间
         /// </summary>
-        public DateTime LogTime { get; set; }
+        public DateTime LogTime { get; set; } = DateTime.Now;
 
         public override string ToString()
         {
@@ -83,6 +79,7 @@ namespace Rhinoceros.Tally.Damain
             }
 
             AccountBook.Logs.Add(log);
+            AccountBook.SaveAllLog();
 
             var cacheColor = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.Cyan;
